@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+   int n;
+   printf("Enter the grade: \n");
+   scanf("%d",&n);
+
+   if (n>85)
+   {
+       printf("The grade is A");
+   }
+   else if(n>70 & n<85)
+   {
+       printf("The grade is B");
+   }
+   else if (n>55 & n<69)
+   {
+       printf("The grade is C");
+   }
+   else if (n>40 & n<54)
+   {
+       printf("The grade is D");
+   }
+   else
+   {
+       printf("The grade is F");
+   }
+}
